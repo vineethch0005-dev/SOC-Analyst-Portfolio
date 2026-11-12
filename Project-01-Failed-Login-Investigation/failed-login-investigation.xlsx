@@ -1,0 +1,14 @@
+soc l1 investigation,
+,
+investigation field ,finding
+affected user,employee1
+suspicious source ip ,203.0.113.45
+failed login attempts ,25
+successful login attempts,1
+first failed login ,09:00:00
+first successful login,09:09:30
+alart classification ,Suspicious Authentication Activity
+initial severity,High – Pending Investigation
+,
+investigation findings,
+25 failed login attempts were observed for employee01 from source IP 203.0.113.45. A successful login subsequently occurred from the same IP at 09:09:30. This activity may indicate a compromised account and requires further investigation.,
