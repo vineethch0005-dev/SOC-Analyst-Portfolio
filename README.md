@@ -1,2 +1,2 @@
 soc analyst portfolio 
-siem investigation 
+Hands-on SOC investigations, SIEM learning, security alert analysis and incident response projects.
