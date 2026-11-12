@@ -1,0 +1,73 @@
+# SOC L1 Incident Report
+
+## 1. Incident Details
+
+| Field | Details |
+|---|---|
+| Incident ID | SOC-2026-001 |
+| Incident Name | Multiple Failed Logins Followed by Successful Login |
+| Affected Account | employee01 |
+| Source IP | 203.0.113.45 |
+| Detection Date | 11 November 2026 |
+| Classification | Suspicious Authentication Activity |
+| Initial Severity | High – Pending Investigation |
+| Status | Escalation Recommended |
+
+## 2. Executive Summary
+
+Multiple failed login attempts were detected against the account employee01 from source IP address 203.0.113.45.
+
+A total of 25 failed authentication attempts were observed, followed by one successful login from the same IP address at 09:09:30.
+
+This activity may indicate a potential account compromise and requires further investigation.
+
+## 3. Evidence Collected
+
+- Affected user: employee01
+- Source IP: 203.0.113.45
+- Failed login attempts: 25
+- Successful login attempts from the same IP: 1
+- First observed failed login: 09:00:00
+- Successful login: 09:09:30
+- Log source: Simulated authentication records
+
+## 4. Investigation Performed
+
+1. Reviewed authentication records.
+2. Identified the affected user account.
+3. Identified the source IP address.
+4. Counted failed authentication attempts using Excel.
+5. Checked for successful authentication from the same IP.
+6. Documented the suspicious login pattern.
+
+## 5. Risk Assessment
+
+The repeated failed authentication attempts followed by a successful login represent suspicious activity.
+
+Potential risks include:
+- Unauthorized account access.
+- Credential compromise.
+- Unauthorized access to organizational resources.
+
+Account compromise has not been confirmed.
+
+## 6. Recommended Response
+
+1. Contact the account owner to verify the login.
+2. Review MFA authentication records.
+3. Examine activity following the successful login.
+4. Review access to sensitive files and applications.
+5. Escalate to the SOC L2 team for further investigation.
+6. Follow organizational procedures for account containment if compromise is confirmed.
+
+## 7. Final Assessment
+
+The available simulated evidence supports classifying this event as suspicious authentication activity.
+
+Further investigation is required to determine whether the successful login was legitimate or resulted from compromised credentials.
+
+## 8. Analyst Notes
+
+Investigation performed as a simulated SOC L1 training exercise using Microsoft Excel.
+
+All usernames, authentication records and IP addresses are fictional training data and do not represent a real organizational incident.
